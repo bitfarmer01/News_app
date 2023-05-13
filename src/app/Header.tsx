@@ -1,7 +1,7 @@
 import React from "react"
 
 function Header() {
-	return <div>Hyellloo</div>
+	return <div>Initial check</div>
 }
 
 export default Header
