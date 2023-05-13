@@ -2,16 +2,16 @@
   "name": "actual_news_app",
   "version": "0.1.0",
   "private": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "node ./pre-commit"
-    }
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node ./pre-commit"
+    }
   },
   "dependencies": {
     "@heroicons/react": "^2.0.17",
